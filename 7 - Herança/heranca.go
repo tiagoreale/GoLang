@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Mais próximo de uma exemplificação de uso de herança, porém não sendo uma!
+
 type pessoa struct {
 	nome      string
 	sobrenome string
