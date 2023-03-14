@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Arrays e Slices")
@@ -14,4 +16,16 @@ func main() {
 
 	array3 := [...]int{12345}
 	fmt.Println(array3)
+
+	slice := []int{10, 11, 12, 13, 14, 15, 16, 17}
+	fmt.Println(slice)
+
+	slice = append(slice, 18)
+	fmt.Println(slice)
+
+	slice2 := array2[1:3]
+	fmt.Println(slice2)
+
+	array2[1] = "Posição Alterada"
+	fmt.Println(slice2)
 }
