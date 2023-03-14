@@ -28,4 +28,26 @@ func main() {
 
 	array2[1] = "Posição Alterada"
 	fmt.Println(slice2)
+
+	// Arrays Internos
+	fmt.Println("-------------")
+	slice3 := make([]float32, 10, 11)
+	fmt.Println(slice3)
+
+	slice3 = append(slice3, 5)
+	slice3 = append(slice3, 6)
+
+	fmt.Println(slice3)
+	fmt.Println(len(slice3)) // length
+	fmt.Println(cap(slice3)) // capacidade
+
+	slice4 := make([]float32, 5)
+	fmt.Println(slice4)
+	slice4 = append(slice4, 10)
+	fmt.Println(len(slice4))
+	fmt.Println(cap(slice4))
+
+	// Arrays é uma lista com tamanho fixo
+	// Slice é uma lista sem tamanho fixo
+
 }
