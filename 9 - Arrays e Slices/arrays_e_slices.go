@@ -29,7 +29,7 @@ func main() {
 	array2[1] = "Posição Alterada"
 	fmt.Println(slice2)
 
-	// Arrays Internos
+	// Arrays Internos //
 	fmt.Println("-------------")
 	slice3 := make([]float32, 10, 11)
 	fmt.Println(slice3)
@@ -47,7 +47,7 @@ func main() {
 	fmt.Println(len(slice4))
 	fmt.Println(cap(slice4))
 
-	// Arrays é uma lista com tamanho fixo
-	// Slice é uma lista sem tamanho fixo
+	// Arrays é uma lista com tamanho fixo //
+	// Slice é uma lista sem tamanho fixo //
 
 }
