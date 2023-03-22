@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	cmd := exec.Command("ls", "-la", "snmpwalk -v2c -c public 172.16.113.230 .1.3.6.1.4.1.3709.3.6.2.1.1.3")
+	cmd := exec.Command("ls", "-la", "htop")
 	out, err := cmd.CombinedOutput()
 	if err != nil {
 		fmt.Println(err)
