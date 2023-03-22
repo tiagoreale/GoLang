@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	out, err := exec.Command("cmd", "/C", "tree").Output()
+	out, err := exec.Command("terminal", "/C", "tree").Output()
 	if err != nil {
 		fmt.Println("Error: ", err)
 		return
@@ -35,4 +35,12 @@ func main() {
 
     fmt.Println(string(out))
 }
+
+aplicação com go que rode um comando msdos
+
+Sim, é possível aplicar um comando MS-DOS em Go.
+
+Para fazer isso, você precisa usar o pacote "os/exec" do Go. Esse pacote fornece APIs para executar comandos do sistema operacional, incluindo comandos MS-DOS.
+
+Aqui está um exemplo de código que executa o comando MS-DOS "tree":
 */
