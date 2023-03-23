@@ -4,3 +4,5 @@ tiagoreale@LINUX:~/go/src/GoLang/17 - Aplicacao de Linha de Comando$ go get gith
 
 
 APP: github.com/urfave/cli
+
+ rodar aplicacao: go run main.go ip --host amazon.com.br
