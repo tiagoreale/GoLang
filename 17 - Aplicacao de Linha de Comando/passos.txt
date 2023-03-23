@@ -1,0 +1,6 @@
+tiagoreale@LINUX:~/go/src/GoLang/17 - Aplicacao de Linha de Comando$ go mod init linha-de-comando
+tiagoreale@LINUX:~/go/src/GoLang/17 - Aplicacao de Linha de Comando$ go get github.com/urfave/cli
+
+
+
+APP: github.com/urfave/cli
