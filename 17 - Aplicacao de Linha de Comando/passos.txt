@@ -6,3 +6,8 @@ tiagoreale@LINUX:~/go/src/GoLang/17 - Aplicacao de Linha de Comando$ go get gith
 APP: github.com/urfave/cli
 
  rodar aplicacao: go run main.go ip --host amazon.com.br
+                  go run main.go servidores --host devbook.com.br
+
+
+Para compilar minha aplicação em Go rodar o comando - go build
+Em seguida - ./linha-de-comando servidores --host amazon.com.br
