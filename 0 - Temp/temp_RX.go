@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// Ajustes de integração bash mais asssociações de comandos
-	cmd := exec.Command("bash", "-c", "echo hello; date; pwd; snmpwalk -v2c -c public 172.16.113.230 .1.3.6.1.4.1.3709.3.6.2.1.1.22")
+	cmd := exec.Command("bash", "-c", "echo hello; date; pwd; snmpwalk -v2c -c public 172.16.113.230 .1.3.6.1.4.1.3709.3.6.2.1.1.22;  snmpwalk -v2c -c public 172.16.113.230 .1.3.6.1.4.1.3709.3.6.2.1.1.3")
 	// Chamada do método Output para obter o resultado como uma fatia de byte
 	out, err := cmd.Output()
 	// Verificação da existência de erros
