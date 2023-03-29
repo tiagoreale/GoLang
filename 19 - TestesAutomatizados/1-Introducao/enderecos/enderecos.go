@@ -2,7 +2,7 @@ package enderecos
 
 import "strings"
 
-/*	Como essa função vai ser exportada tem que está com T maisculo, TipoDeEndereco verifica
+/*Como essa função vai ser exportada tem que está com T maisculo, TipoDeEndereco verifica
 se um endereço tem um tipo válido e o retorna
 */
 
