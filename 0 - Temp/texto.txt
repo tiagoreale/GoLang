@@ -13,5 +13,8 @@ https://www.certificacaolinux.com.br/controle-de-versao-no-linux-com-o-git-guia-
 
 
 git init
-git log (apenas se quiser ver o log mesmo)
+git log (apenas se quiser ver o log mesmo, se quiser sair utilizar o Ctrl+Z)
 git pull 
+Após utilizar a solicitação de pull go VS-Code.
+
+############################################
