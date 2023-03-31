@@ -26,3 +26,5 @@ import (
     . "introducao-teste/enderecos"
     "testing"
 )
+
+* Pesquisar sobre o significado do teste TDD
