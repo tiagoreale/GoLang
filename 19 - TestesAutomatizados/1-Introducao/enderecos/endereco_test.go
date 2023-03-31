@@ -9,6 +9,8 @@ type cenarioDeTeste struct {
 }
 
 func TestTipoDeEndereco(t *testing.T) {
+	t.Parallel()
+
 	/*enderecoParaTeste := "Rua"
 	tipoDeEnderecoEsperado := "Avenida"
 	tipoDeEnderecoRecebido := TipoDeEndereco(enderecoParaTeste)*/
@@ -42,4 +44,12 @@ func TestTipoDeEndereco(t *testing.T) {
 		}
 	}
 
+}
+
+func TestQualquer(t *testing.T) {
+	/*t.Parallel()
+
+	if 1 > 2 {
+		t.Errorf("Teste quebrou!")
+	}*/
 }

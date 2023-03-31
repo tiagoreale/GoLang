@@ -1,0 +1,28 @@
+* Para rodar o teste executar dentro da pasta o comando (go test) ou se estiver fora da pasta
+rodar o comando (go test ./...) isso aqui vai fazer com que o go entre em todos os pacotes e 
+realize o teste de todos caso existam mais de um.
+
+* Para rodar testes em paralelo rodamos o comando (go test -v) é importante nessa função 
+utilizar a atribuição: t.Parallel(), essa inserção tem que está em mais de uma função de teste
+para ser válido.
+
+* O comando (go test --cover) vai me retornar a porcentagem de coberturas em linhas nos testes
+executados, se é uma cobertura de 100% ou abaixo desse valor.
+
+* Para armazenar as linhas do meu teste e coletar o log (go test --coverprofile cobertura.txt)
+
+* O comando (go tool cover --func=cobertura.txt) vai retornar as informações do erro de forma
+detalhada.
+
+* O comando (go tool cover --html=cobertura.txt) vai retornar as informações do erro de forma
+detalhada em html.
+
+* OBS: No Go como foi falado no início do curso só se pode utilizar um pacote por pasta dentro 
+do Go a excessão seria apenas para fazer os testes seguindo o mesmo nome do pacote com o final
+descrito com o (_test) ao final do nome do pacote (package enderecos) ficando (package enderecos_test)
+lembrado que tem que importar o pacote com endereços ("introducao-testes/enderecos")
+
+import (
+    . "introducao-teste/enderecos"
+    "testing"
+)
