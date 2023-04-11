@@ -24,8 +24,17 @@ func main() {
 	// URI - Identificador do Recurso
 	// Método - GET, POST, PUT, DELETE
 
-	http.HandleFunc("/home", home)
-	http.HandleFunc("/usuarios", usuarios)
+	http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("Olá Mundo!"))
+	})
+
+	http.HandleFunc("/usuarios", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("Carregar página de usuários!"))
+	})
 
 	log.Fatal(http.ListenAndServe(":5000", nil))
 }
+
+// roda o arquivo - go run http.go
+// abrir o navegador e executar http://localhost:5000/home
+// http://localhost:5000/usuarios
