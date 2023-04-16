@@ -22,17 +22,15 @@
 <body>
     <h2> Página Principal </h2>      
     
-    <button>Clique!</button>
-       
+    <button id="botao">Clique!</button>
+      
+      <script>
+            var botao = document.getElementById("botao");
+            botao.onclick = function() {
+                alert("Botão clicado com Sucesso!")
+            }
+       </script>
+
 </body>
 
 </html>
-
-<!--
-
-    {
-        Nome: "João"
-        Email: "..."
-    }
-
--->
