@@ -1,4 +1,4 @@
-Vamos utilizar o go.mod porque iremos utilizar pacotes externos!
+Vamos utilizar o go.mod porque iremos importar pacotes externos!
 
 * Passos da criação:
 
