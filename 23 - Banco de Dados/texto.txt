@@ -1,0 +1,10 @@
+Vamos utilizar o go.mod porque iremos utilizar pacotes externos!
+
+* Passos da criação:
+
+host-local:~/go/src/GoLang/23 - Banco de Dados$ go mod init banco-dados
+
+* Será também necessária a realização de um dowloade do pacote do mysql
+
+host-local:~/go/src/GoLang/23 - Banco de Dados$ go get github.com/go-sql-driver/mysql
+
