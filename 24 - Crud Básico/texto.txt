@@ -1,0 +1,5 @@
+Será necessário instalar o pacote mux, no terminal executar o seguinte comando:
+
+go get github.com/gorilla/mux
+
+Feito isso o pacote será associado ao go.mod
