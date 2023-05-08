@@ -3,7 +3,7 @@ package banco
 import (
 	"database/sql"
 
-	_ "github.com/gorilla/mux" // Driver de conexão com o MySQL
+	_ "github.com/go-sql-driver/mysql" // Driver de conexão com o MySQL
 )
 
 // Conectar abre a conexão com o banco de dados
